@@ -58,7 +58,7 @@ const handleSubmit = async () => {
     console.log("payload: ", payload);
 
     // Simulate fetch request to API
-    const response = await fetch('http://localhost:8080/api/register', {
+    const response = await fetch('https://saltcrypt.onrender.com/api/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
